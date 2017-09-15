@@ -1,12 +1,27 @@
 /* Body */
 
-html,
+html {
+    font-size: 14px;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  line-height: 1.4;
 }
 
 /* Jumbotron */
+.jumbotron {
+  height: 44rem;
+  padding-top: 10rem;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #FFF;
+  text-shadow: 1px 1px 2px black;
+  background-image: url("./resources/images/jumbotron-bike.jpg");
+}
+
 .header {
   font-family: 'Monoton', cursive;
 }
